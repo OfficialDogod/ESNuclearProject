@@ -128,7 +128,7 @@ transition: transform 0.3s ease;
 
 .above-box3 {
     margin-bottom: 5px;
-    font-size: 1.25em; /* Adjust size as needed */
+    font-size: 1.25em; 
     color: firebrick;
     text-align: center;
 }
@@ -153,4 +153,28 @@ transition: transform 0.3s ease;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 1.2em;
+}
+
+.yamomma {
+    padding-top: 5em;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 550px;
+    height: 300.5px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
 }
